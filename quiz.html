@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+</head>
+<body>
+     <h1 align="center"><b><u>Mini - Quiz</u></b></h1>
+    <form method="POST" action="https://formspree.io/iBorys.w@gmail.com">
+        <fieldset>
+            <legend>Respondent's info</legend>
+            <br>
+            <label for="name">Your name:</label>
+                <input id="name" name="name" type="text" placeholder="Your name">
+            <br><br>
+            <label for="surname">Your surname</label>
+                <input id="surname" name="surname" type="text" placeholder="Your surname">
+            <br><br>
+            <label for="email">Your email:</label>
+                <input id="email" name="email" type="text" placeholder="Your email">
+            <br><br>
+            <label for="tel">Your phone number:</label>
+                <input id="tel" name="phone number" type="text" placeholder="Your phone number">
+            <br><br>
+            <label>Your gender:</label>
+            <label>
+                <input type="radio" name="gender" id="male" value="male">
+                Male
+            </label>
+            <label>
+                <input type="radio" name="gender" id="female" value="female">
+                Female
+            </label>
+            <label>
+                <input type="radio" name="gender" id="other" value="other">
+                Other
+            </label>
+            <br><br>
+            <label for="age">Your age:</label>
+                <input type="number" name="age" id="age" min="1" max="100" step="1" placeholder="XX">
+            <br><br>
+            <label for="date">Your birthdate:</label>
+                <input type="date" name="date" id="date">
+            <br><br>
+            <label for="photo">Add your photo:</label>
+                <input type="file" id="photo">
+        </fieldset>    
+            <br>
+            <label for="question">What is the engine in the Ferrari LaFerrari?</label>
+                <input list="answer" id="question" name="question" placeholder="choose the right answer">
+                    <datalist id="answer">
+                        <option value="diesel">
+                        <option value="hybrid">
+                        <option value="eco-diesel">
+                        <option value="gasoline">
+                    </datalist>
+            <br><br>
+                <label for="question1">What is the Ferrari LaFerrari original model?</label>
+                <input list="answer1" id="question1" name="question1" placeholder="choose the right answer">
+                    <datalist id="answer1">
+                        <option value="F150">
+                        <option value="F215">
+                        <option value="F488">
+                        <option value="F2000">
+                    </datalist>
+            <br><br>
+            <fieldset>
+                <legend>What does LaFerrari literally mean to "The Ferrari" in Italian and in some other Romance languages?</legend>
+                <input type="radio" id="definitive" value=" in this context in the sense that it is the "definitive" Ferrari" name="definitive">
+                <label for="definitive"> in this context in the sense that it is the "definitive" Ferrari</label><br/>
+                <input type="radio" id="LaDiablo" value=" in this context in the sense that it is the "LaDiablo" Ferrari" name="LaDiablo">
+                <label for="LaDiablo"> in this context in the sense that it is the "LaDiablo" Ferrari</label><br/>
+                <input type="GTC4Lusso" id="GTC4Lusso" value=" in this context in the sense that it is the "GTC4Lusso" Ferrari" name="GTC4Lusso">
+                <label for="GTC4Lusso"> in this context in the sense that it is the "GTC4Lusso" Ferrari</label><br/>
+                <input type="radio" id="Other" value="Other" name="Other">
+                <label for="Other">Інше</label> <input type="text" placeholder="Your variant"><br/>
+            </fieldset>
+            <br><br>
+            <label><mark>Do you have Ferrari?</mark></label>
+            <label>
+            <input type="radio" name="issue" value="yes">
+            Yes
+        </label>
+            <label>
+            <input type="radio" name="issue" value="no">
+            No 
+        </label>
+            <br><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    <p>Questions was created with information, which is <a href="index.html"><i>here</i></a>.</p>
+    <footer>
+        <p><i>Ⓒ Avenghini</i></p>
+        <p><i>All rights reserved.</i></p>
+    </footer>
+    
+</body>
+</html>
